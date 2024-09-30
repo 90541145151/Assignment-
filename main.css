@@ -1,0 +1,104 @@
+/* Body and Typography */
+body {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    background-color: #f5f5f5; /* Light, warm neutral background */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Dark text for readability */
+  }
+  
+  /* Heading Styles */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
+    color: #d32f2f; /* Vibrant Red for Headings */
+  }
+  
+  /* Container */
+  .container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  /* Image Styling */
+  img {
+    width: 50%;
+    border-radius: 5px; /* Soft rounded corners for images */
+  }
+  
+  /* Navigation */
+  .main-nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    background-color: #ff9800; /* Warm Orange Navigation */
+  }
+  
+  .main-nav ul li {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .main-nav ul li a {
+    display: block;
+    color: #fff; /* White text for contrast */
+    text-decoration: none;
+    font-size: 1.25rem;
+    padding: 1rem 0;
+  }
+  
+  .main-nav ul li a:hover {
+    background-color: #e64a19; /* Darker orange on hover */
+  }
+  
+  /* Form Styling */
+  form input,
+  form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: .5rem 1rem;
+    border: 2px solid #4caf50; /* Green Border */
+    border-radius: 5px;
+  }
+  
+  form textarea {
+    min-height: 150px;
+    max-height: 150px;
+    height: 150px;
+    resize: none;
+  }
+  
+  form button {
+    background: #d32f2f; /* Red button */
+    color: #fff;
+    border: none;
+    padding: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background: #b71c1c; /* Darker red on hover */
+  }
+  
+  /* Footer */
+  .site-footer {
+    background-color: #ff5722; /* Vibrant Deep Orange */
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 0.875rem;
+  }
+  
+  .site-footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .site-footer a:hover {
+    text-decoration: underline;
+  }
+  
